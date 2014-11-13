@@ -1,0 +1,64 @@
+/* global */
+html {
+  box-sizing: border-box;
+  font-size: 12px;
+  font-family: arial;
+  color: #000;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  margin-top: 40px;
+  background-color: #fff;
+}
+
+/* content */
+header {
+  background-color: #e20a16;
+}
+
+main,
+header {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  height: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+header > div {
+  float: left;
+  width: 50%;
+  color: #fff;
+  padding: 10px;
+}
+
+header > div.contact {
+  text-align: right;
+}
+
+header > div.contact span {
+  display: block;
+  padding-bottom: 4px;
+}
+
+/* map */
+#map {
+  height: 580px;
+}
+
+.popup > span {
+  display: block;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
